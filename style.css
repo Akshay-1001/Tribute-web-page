@@ -1,0 +1,108 @@
+
+body {
+    background: #1a1b1d;
+    color:#fff;
+    font-size: 10px;
+    margin:0;
+    font-family: 'Lexend', sans-serif;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+
+  main {
+    font-size: 1.2rem;
+  }
+
+  .head {
+    text-align: center;
+    margin: rem;
+  }
+
+  figure {
+    background: #6c17f4;
+    padding:0.5rem;
+    min-height: 10%;
+    min-width: 10%;
+    border-radius: 0.3rem;
+  }
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #img-caption {
+    text-align: center;
+    margin: 2rem 0;
+  }
+
+  h3 {
+    margin: auto;
+    font-size: 1.7rem;
+  }
+
+  ul li {
+    margin:1rem 0; 
+    line-height: 1.7rem;
+  }
+
+  .quote {
+    font-style: italic;
+    margin:2rem 1.2rem;
+    padding: 2rem;
+    font-size: 1.3rem;
+  }
+
+  .PM {
+    text-align: right;
+    margin: -1.5rem 1.3rem;
+    font-size: 1.3rem;
+  }
+
+  #tribute-link {
+    background: #6c17f4;
+    padding:1.5rem;
+    margin:6rem 0 2rem;
+    text-align: center;
+  }
+
+  a {
+    color:#fff;
+    font-family: inherit ;
+  }
+
+  a:hover {
+    color:#2e105f;
+  }
+
+  li {
+    list-style-type:none; 
+  }
+
+  li::before {
+    content: "•";
+    color:#6c17f4;
+    width: 0.1rem;
+    display:inline;
+    margin: 0.5rem;
+  }
+
+  @media only screen and (min-width: 1300px) {
+    #tribute-info {
+      padding: 2rem 20rem;
+    }
+
+    .quote, .PM {
+      padding: 0 30rem;
+    }
+
+    figure {
+      margin: 2rem 25rem;
+    }
+
+    #img-caption {
+      padding:0 7rem;
+    }  
+}
